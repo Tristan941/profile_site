@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(120, 120, 120);
+    font-family: Helvetica, sans-serif;
+    color: #987554;
+    background-color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #16558F;
+}
+
+p {
+    font-size: 3rem;
+    color : #16558F;
+    font-family: Helvetica;
+}
+
+#header {
+    background-image: url('banniere.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    margin: 140px;
+    margin-top: 0;
+
+}
+
+.bannière {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#logo {
+    width: 160px;
+    height: 140px;
+    box-shadow: 5px 5px 10px 0px #16558F;
+    border-radius: 15%;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-left: 30px;
+}
+
+h3{
+	font-size : 2rem;
+	margin-left: 55px;
+	color : black;
+	padding-top: 30px;
+	text-align: center;
+}
+#deux {
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+    border-radius: 7%;
+    margin-top: 35px;
+
+}
+
+#trois {
+	background-color: white;
+	border-radius: 7%;
+}
+
+#header, #deux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7%;
+}
+
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+.button {
+	list-style-type: none;
+	padding : 0;
+	margin-left: 32px;
+}
+
+.description{
+	margin-left: 50px;
+	font-family: Helvetica;
+	font-size : 1.2rem;
+	color:  black;
+
+}
+
+.container{
+	margin: auto;
+	width: 75%;
+	
+}
